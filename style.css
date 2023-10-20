@@ -1,15 +1,20 @@
 *{
-  margin:0;padding:0;
-}
-header{
-  heigt:300px;
-  border:1px solid red;
-}
-.content{
-  width:1100px;
-  margin:0 auto;
-  border:1px solid blue;
-}
-header.topo{
-}
-  
+    margin:0;padding:0;
+  }
+  header{
+    heigt:300px;
+    border:1px solid red;
+  }
+  .content{
+    width:1100px;
+    margin:0 auto;
+    border:1px solid blue;
+  }
+  header.links{
+    display: flex;
+  }
+  header.links li{
+    list-style: none;
+    margin: 0 15px;
+  }
+    
